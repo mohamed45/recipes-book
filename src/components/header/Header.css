@@ -1,0 +1,22 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color:rgba(0, 0, 0, 0.1);
+  width: 93%;
+}
+
+.logo {
+  width: 90px; /* Adjust size as needed */
+  height: auto;
+  /* margin-right: 50px; */
+  margin-right: auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+  

@@ -1,0 +1,36 @@
+.recipe-form {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.recipe-form h2 {
+  margin-top: 0;
+}
+
+.recipe-form label {
+  margin-bottom: 10px;
+}
+
+.recipe-form input, .recipe-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.recipe-form button {
+  background: -webkit-linear-gradient(0deg, #15CA7B, #4C9DDC);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.recipe-form button:hover {
+  background-color: #218838;
+}
+

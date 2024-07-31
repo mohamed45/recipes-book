@@ -1,0 +1,18 @@
+.recipe-list {
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.recipe-item {
+  padding: 10px;
+  cursor: pointer;
+  /* background-color: #fff; */
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-item.active {
+  background-color: #ddd;
+}
